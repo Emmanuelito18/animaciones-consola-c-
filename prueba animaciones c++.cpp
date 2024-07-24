@@ -48,7 +48,7 @@ int main() {
     int vlongitud = vtitulo.length();
     int vcentro = (((80 - vlongitud) / 2) + 1);
 
-    gotoxy(vcentro, 9);
+    //gotoxy(vcentro, 9);
 
     for (xcol = 2; xcol <= vcentro; xcol++) {
         vcolor = rand() % 15;
@@ -58,7 +58,7 @@ int main() {
         Sleep(100);
     }
     setColor(15);
-	gotoxy(80,5);
+	gotoxy(1,5);
 	cout<<endl;
     system("pause");
     return 0;
